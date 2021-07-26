@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Digitalproducts</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="page">
+    <header class="header" >
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo header__logo">
+                    <a class="logo__link" href="index.html">
+                        <svg class="icon icon_logo logo__icon">
+                            <use xlink:href="img/icons.svg#logo"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="nav header__nav">
+                    <button class="nav__burger d-lg-none"><i class="fas fa-bars"></i><i class="fas fa-times d-none"></i></button>
+                    <ul class="nav__list d-lg-flex">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home1">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home2">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home3">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home4">Works</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#home5">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="big-screen" id="home1">
+        <img class="big-screen__img" src="./img/bg-big-screen.jpg" alt="" />
+        <div class="container">
+            <h1 class="big-screen__title">CreativE DIGITAL Project</h1>
+            <p class="big-screen__subtitle">Duis mollis, est non commodo luctus,<br>nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+        </div>
+    </div>
+    <div class="about" id="home2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="about__panel">
+                        <img class="about__img" src="./img/bg-about-title.jpg" alt="" />
+                        <div class="title about__title">
+                            <svg class="icon icon_aboutUs title__icon">
+                                <use xlink:href="img/icons.svg#aboutUs"></use>
+                            </svg>
+                            <h2 class="title__title">About Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7 offset-xl-1 col-lg-8 col-md-6 col-12">
+                    <div class="about__content">
+                        <p class="about__text">Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                        <p class="about__text"><b>Morbi leo risus</b>, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet <i>fermentum</i>. Sed posuere consectetur est at lobortis.</p>
+                        <div class="about__btn">
+                            <a class="btn--dark btn" href="javascript:alert('Good job!')">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="home3">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-12 order-lg-1">
+                    <div class="services__panel">
+                        <img class="services__img" src="./img/bg-our-services.jpg" alt="" />
+                        <div class="title services__title">
+                            <svg class="icon icon_services title__icon">
+                                <use xlink:href="img/icons.svg#services"></use>
+                            </svg>
+                            <h2 class="title__title">OUR SERVICES</h2>
+                            <blockquote class="services__blockquote">“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.”<span class="services__author">- Borat -</span>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12 order-lg-0">
+                    <div class="row no-gutters h-100">
+                        <div class="col-md-6 col-12 services__service d-flex align-items-center justify-content-center">
+                            <div class="title">
+                                <svg class="icon icon_graphic title__icon">
+                                    <use xlink:href="img/icons.svg#graphic"></use>
+                                </svg>
+                                <h3 class="title__title title__title--small">GRAPHIC DESIGN</h3>
+                                <p class="title__description">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 services__service d-flex align-items-center justify-content-center">
+                            <div class="title">
+                                <svg class="icon icon_web title__icon">
+                                    <use xlink:href="img/icons.svg#web"></use>
+                                </svg>
+                                <h3 class="title__title title__title--small">WEB DEVELOPMENT</h3>
+                                <p class="title__description">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 services__service d-flex align-items-center justify-content-center">
+                            <div class="title">
+                                <svg class="icon icon_SEO title__icon">
+                                    <use xlink:href="img/icons.svg#SEO"></use>
+                                </svg>
+                                <h3 class="title__title title__title--small">SEO &amp; MARKETING</h3>
+                                <p class="title__description">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 services__service d-flex align-items-center justify-content-center">
+                            <div class="title">
+                                <svg class="icon icon_mobile title__icon">
+                                    <use xlink:href="img/icons.svg#mobile"></use>
+                                </svg>
+                                <h3 class="title__title title__title--small">MOBILE DEVELOPMENT</h3>
+                                <p class="title__description">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="works" id="home4">
+        <img class="works__img" src="./img/bg-works.jpg" alt="" />
+        <div class="container">
+            <div class="title works__title">
+                <svg class="icon icon_works title__icon">
+                    <use xlink:href="img/icons.svg#works"></use>
+                </svg>
+                <h2 class="title__title">RECENT WORKS</h2>
+            </div>
+            <div class="position-relative row">
+                <div class="position-static offset-lg-2 col-lg-8 col-12">
+                    <svg class="icon icon_arrowLeft works__navigation works__navigation--prev">
+                        <use xlink:href="img/icons.svg#arrowLeft"></use>
+                    </svg>
+                    <svg class="icon icon_arrowRight works__navigation works__navigation--next">
+                        <use xlink:href="img/icons.svg#arrowRight"></use>
+                    </svg>
+                    <div class="works__slider">
+                        <div class="works__slide">
+                            <img class="works__slideImg" src="./img/slide01.jpg" alt="" />
+                        </div>
+                        <div class="works__slide">
+                            <img class="works__slideImg" src="./img/slide01.jpg" alt="" />
+                        </div>
+                        <div class="works__slide">
+                            <img class="works__slideImg" src="./img/slide01.jpg" alt="" />
+                        </div>
+                        <div class="works__slide">
+                            <img class="works__slideImg" src="./img/slide01.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="works__btn">
+                <a class="btn--light btn" href="javascript:alert('Not today!')">View Gallery</a>
+            </div>
+        </div>
+    </div>
+    <div class="team" > 
+        <div class="container">
+            <div class="title">
+                <svg class="icon icon_team title__icon">
+                    <use xlink:href="img/icons.svg#team"></use>
+                </svg>
+                <h2 class="title__title">MEET OUR TEAM</h2>
+            </div>
+            <div class="team__wrapper">
+                <svg class="icon icon_arrowLeft team__navigation team__navigation--prev">
+                    <use xlink:href="img/icons.svg#arrowLeft"></use>
+                </svg>
+                <svg class="icon icon_arrowRight team__navigation team__navigation--next">
+                    <use xlink:href="img/icons.svg#arrowRight"></use>
+                </svg>
+                <div class="team__slider">
+                    <div class="team__employee">
+                        <div class="team__picture">
+                            <img class="team__img" src="./img/worker01.jpg" alt="" />
+                        </div>
+                        <div class="team__panel">
+                            <h3 class="team__name">Miguel Obrien</h3>
+                            <p class="team__position">CEO &amp; Founder</p>
+                        </div>
+                        <div class="team__footer">
+                            <ul class="social team__social">
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.behance.net/" target="_blank"><i class="fa-behance fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.linkedin.com/" target="_blank"><i class="fa-linkedin-in fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.google.com.ua/?hl=uk" target="_blank"><i class="fa-google-plus-g fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.facebook.com/" target="_blank"><i class="fa-facebook-f fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://twitter.com/?lang=uk" target="_blank"><i class="fa-twitter fab"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team__employee">
+                        <div class="team__picture">
+                            <img class="team__img" src="./img/worker02.jpg" alt="" />
+                        </div>
+                        <div class="team__panel">
+                            <h3 class="team__name">Jackie Carroll</h3>
+                            <p class="team__position">Art Director</p>
+                        </div>
+                        <div class="team__footer">
+                            <ul class="social team__social">
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.behance.net/" target="_blank"><i class="fa-behance fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.linkedin.com/" target="_blank"><i class="fa-linkedin-in fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.google.com.ua/?hl=uk" target="_blank"><i class="fa-google-plus-g fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.facebook.com/" target="_blank"><i class="fa-facebook-f fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://twitter.com/?lang=uk" target="_blank"><i class="fa-twitter fab"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team__employee">
+                        <div class="team__picture">
+                            <img class="team__img" src="./img/worker03.jpg" alt="" />
+                        </div>
+                        <div class="team__panel">
+                            <h3 class="team__name">Ida Morrison</h3>
+                            <p class="team__position">Designer</p>
+                        </div>
+                        <div class="team__footer">
+                            <ul class="social team__social">
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.behance.net/" target="_blank"><i class="fa-behance fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.linkedin.com/" target="_blank"><i class="fa-linkedin-in fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.google.com.ua/?hl=uk" target="_blank"><i class="fa-google-plus-g fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.facebook.com/" target="_blank"><i class="fa-facebook-f fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://twitter.com/?lang=uk" target="_blank"><i class="fa-twitter fab"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team__employee">
+                        <div class="team__picture">
+                            <img class="team__img" src="https://media-exp3.licdn.com/dms/image/C4E03AQHyWsXp9KgAkQ/profile-displayphoto-shrink_200_200/0/1614164472345?e=1629331200&v=beta&t=fld_uZLeYekJBzKpUwC3lIep4VSdD2y3010w4XAyQb0" alt="" />
+                        </div>
+                        <div class="team__panel">
+                            <h3 class="team__name">Mariana Kindrakevych</h3>
+                            <p class="team__position">Junior Front-End Developer</p>
+                        </div>
+                        <div class="team__footer">
+                            <ul class="social team__social">
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.behance.net/" target="_blank"><i class="fa-behance fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.linkedin.com/" target="_blank"><i class="fa-linkedin-in fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.google.com.ua/?hl=uk" target="_blank"><i class="fa-google-plus-g fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://www.facebook.com/" target="_blank"><i class="fa-facebook-f fab"></i></a>
+                                </li>
+                                <li class="social__item">
+                                    <a class="social__link" href="https://twitter.com/?lang=uk" target="_blank"><i class="fa-twitter fab"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="home5">
+        <div class="contact__map" id="map"></div>
+        <div class="contact__toTop">
+            <svg class="icon icon_arrowTop contact__icon">
+                <use xlink:href="img/icons.svg#arrowTop"></use>
+            </svg>
+        </div>
+        <div class="contact__wrapper">
+            <div class="container">
+                <div class="title contact__title">
+                    <svg class="icon icon_location title__icon">
+                        <use xlink:href="img/icons.svg#location"></use>
+                    </svg>
+                    <h2 class="title__title">GET IN TOUCH</h2>
+                </div>
+            </div>
+            <div class="contact__info">
+                <a class="contact__action" href="javascript:void(0)">
+                    <div class="contact__iconBox">
+                        <svg class="icon icon_address contact__icon">
+                            <use xlink:href="img/icons.svg#address"></use>
+                        </svg>
+                    </div>
+                    <div class="contact__text">Mariana Kindrakevych<br>Kyiv Beetroot<br>Ukraine</div>
+                </a>
+                <a class="contact__action" href="tel:+380990059387">
+                    <div class="contact__iconBox">
+                        <svg class="icon icon_mobile contact__icon">
+                            <use xlink:href="img/icons.svg#mobile"></use>
+                        </svg>
+                    </div>
+                    <div class="contact__text">+380990059387</div>
+                </a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-12 mx-auto">
+                        <form class="form" action="#" method="get">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="form__controls">
+                                        <input class="form__input" type="text" name="name" id="name" required="required" />
+                                        <label class="form__label" for="name">Your Name<span class="form__required">*</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <div class="form__controls">
+                                        <input class="form__input" type="email" name="email" id="email" required="required" />
+                                        <label class="form__label" for="email">Your Email<span class="form__required">*</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form__controls">
+                                        <textarea class="form__input form__input--textarea" name="message" required="required" minlength="1"></textarea>
+                                        <label class="form__label" id="message">Your Message<span class="form__required">*</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form__submit">
+                                        <input class="btn btn--submit" type="submit" value="SEND MESSAGE" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="d-flex justify-content-md-between flex-sm-row flex-column">
+                <p class="footer__copy">&copy;2014 <strong>tulus</strong>driyo. All Rights Reserved.</p>
+                <ul class="social footer__social">
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.behance.net/" target="_blank"><i class="fa-behance fab"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.linkedin.com/" target="_blank"><i class="fa-linkedin-in fab"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.google.com.ua/?hl=uk" target="_blank"><i class="fa-google-plus-g fab"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://www.facebook.com/" target="_blank"><i class="fa-facebook-f fab"></i></a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="https://twitter.com/?lang=uk" target="_blank"><i class="fa-twitter fab"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
